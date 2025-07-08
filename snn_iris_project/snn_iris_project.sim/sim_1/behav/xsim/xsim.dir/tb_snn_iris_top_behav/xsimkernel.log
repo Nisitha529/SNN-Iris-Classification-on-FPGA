@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_snn_iris_top_behav/xsimk -simmode gui -wdb tb_snn_iris_top_behav.wdb -simrunnum 0 -socket 41741
+Design successfully loaded
+Design Loading Memory Usage: 23716 KB (Peak: 24256 KB)
+Design Loading CPU Usage: 50 ms
+Simulation completed
+Simulation Memory Usage: 105712 KB (Peak: 162984 KB)
+Simulation CPU Usage: 100 ms
