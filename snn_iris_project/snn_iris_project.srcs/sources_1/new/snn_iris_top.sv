@@ -11,7 +11,7 @@ module snn_iris_top (
 
     // Parameters
     localparam TIME_STEPS      = 64;
-    localparam PIPELINE_DELAY  = 4;
+    localparam PIPELINE_DELAY  = 8;
 
     // Control signals
     wire        reset        = ~reset_n;
