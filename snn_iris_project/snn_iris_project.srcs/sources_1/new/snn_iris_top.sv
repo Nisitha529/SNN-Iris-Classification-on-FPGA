@@ -12,6 +12,7 @@ module snn_iris_top (
     // Parameters
     localparam TIME_STEPS      = 64;
     localparam PIPELINE_DELAY  = 8;
+    localparam TOTAL_CYCLES    = PIPELINE_DELAY + TIME_STEPS;
 
     // Control signals
     wire        reset        = ~reset_n;
@@ -38,7 +39,9 @@ module snn_iris_top (
     reg  [7:0]  count0;
     reg  [7:0]  count1;
     reg  [7:0]  count2;
+    reg  [7:0]  final_count0, final_count1, final_count2;
     reg  [2:0]  class_reg;
+    reg  [15:0] global_cycle; 
 
     // Control module
     control_iris #(
@@ -55,6 +58,16 @@ module snn_iris_top (
         .count_enable (count_enable),
         .result_valid (result_valid)
     );
+    
+    always @(posedge clk or posedge reset) begin
+      if (reset) begin
+        global_cycle <= 0;
+      end else if (sample_reset) begin
+        global_cycle <= 0;  // Reset at start of new sample
+      end else if (global_cycle < TOTAL_CYCLES) begin
+        global_cycle <= global_cycle + 1;  // Increment until end
+      end
+    end
 
     // Input spike generators
     gen_input_single gen_f0 ( .clk(clk), .reset(sample_reset), .feature(f0), .spike_out(sp0) );
@@ -117,13 +130,32 @@ module snn_iris_top (
             count2 <= 0;
         end
     end
+    
+    always @(posedge clk) begin
+        if (reset) begin
+            final_count0 <= 0;
+            final_count1 <= 0;
+            final_count2 <= 0;
+        end else if (count_enable && (global_cycle == (TOTAL_CYCLES - 1))) begin
+            // Capture at last cycle of simulation
+            final_count0 <= count0;
+            final_count1 <= count1;
+            final_count2 <= count2;
+        end
+    end
 
     // Classification decision
     always @(posedge clk) begin
         if (result_valid) begin
-            if      (count0 >= count1 && count0 >= count2) class_reg <= 3'b001;
-            else if (count1 >= count0 && count1 >= count2) class_reg <= 3'b010;
-            else                                          class_reg <= 3'b100;
+            if (final_count0 >= final_count1 && final_count0 >= final_count2) begin
+                class_reg <= 3'b001;  // Class 0
+            end
+            else if (final_count1 >= final_count0 && final_count1 >= final_count2) begin
+                class_reg <= 3'b010;  // Class 1
+            end
+            else begin
+                class_reg <= 3'b100;  // Class 2
+            end
         end
     end
 

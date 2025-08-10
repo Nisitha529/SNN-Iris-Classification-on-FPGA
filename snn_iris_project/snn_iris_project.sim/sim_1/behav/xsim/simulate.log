@@ -1,19 +1,19 @@
 Time resolution is 1 ps
-Sample 0: Output xxx | Expected 00000000000000000000000000000100 | @AA@
-Sample 1: Output 100 | Expected 00000000000000000000000000000010 | FAIL
-Sample 2: Output 100 | Expected 00000000000000000000000000000100 | PASS
-Sample 3: Output 100 | Expected 00000000000000000000000000000010 | FAIL
-Sample 4: Output 100 | Expected 00000000000000000000000000000100 | PASS
-Sample 5: Output 100 | Expected 00000000000000000000000000000100 | PASS
-Sample 6: Output 100 | Expected 00000000000000000000000000000010 | FAIL
-Sample 7: Output 100 | Expected 00000000000000000000000000000010 | FAIL
-Sample 8: Output 100 | Expected 00000000000000000000000000000001 | FAIL
-Sample 9: Output 010 | Expected 00000000000000000000000000000100 | FAIL
-Sample 10: Output 100 | Expected 00000000000000000000000000000001 | FAIL
-Sample 11: Output 010 | Expected 00000000000000000000000000000001 | FAIL
-Sample 12: Output 010 | Expected 00000000000000000000000000000100 | FAIL
-Sample 13: Output 100 | Expected 00000000000000000000000000000100 | PASS
-Sample 14: Output 100 | Expected 00000000000000000000000000000001 | FAIL
+Sample 0: Output x | Expected           4 | @AA@
+Sample 1: Output 1 | Expected           2 | FAIL
+Sample 2: Output 1 | Expected           4 | FAIL
+Sample 3: Output 1 | Expected           2 | FAIL
+Sample 4: Output 1 | Expected           4 | FAIL
+Sample 5: Output 1 | Expected           4 | FAIL
+Sample 6: Output 1 | Expected           2 | FAIL
+Sample 7: Output 1 | Expected           2 | FAIL
+Sample 8: Output 1 | Expected           1 | PASS
+Sample 9: Output 1 | Expected           4 | FAIL
+Sample 10: Output 1 | Expected           1 | PASS
+Sample 11: Output 1 | Expected           1 | PASS
+Sample 12: Output 1 | Expected           4 | FAIL
+Sample 13: Output 1 | Expected           4 | FAIL
+Sample 14: Output 1 | Expected           1 | PASS
 
 Classification Complete
 Accuracy: 26.67% (4/15)

@@ -1,0 +1,20 @@
+Time resolution is 1 ps
+Sample 0: Output xxx | Expected 100 | @AA@
+Sample 1: Output 001 | Expected 010 | FAIL
+Sample 2: Output 001 | Expected 100 | FAIL
+Sample 3: Output 001 | Expected 010 | FAIL
+Sample 4: Output 001 | Expected 100 | FAIL
+Sample 5: Output 001 | Expected 100 | FAIL
+Sample 6: Output 001 | Expected 010 | FAIL
+Sample 7: Output 001 | Expected 010 | FAIL
+Sample 8: Output 001 | Expected 001 | PASS
+Sample 9: Output 001 | Expected 100 | FAIL
+Sample 10: Output 001 | Expected 001 | PASS
+Sample 11: Output 001 | Expected 001 | PASS
+Sample 12: Output 001 | Expected 100 | FAIL
+Sample 13: Output 001 | Expected 100 | FAIL
+Sample 14: Output 001 | Expected 001 | PASS
+
+Classification Complete
+Accuracy: 26.67% (4/15)
+$finish called at time : 4695 ns : File "/media/nisitha/My_Passport/MOODLE/Vivado_projects/SNN_project/snn_iris_project/snn_iris_two_layered/snn_iris_two_layered.srcs/sim_1/new/tb_snn_iris_top.sv" Line 54

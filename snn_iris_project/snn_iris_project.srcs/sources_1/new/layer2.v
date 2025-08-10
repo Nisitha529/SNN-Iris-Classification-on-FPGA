@@ -13,8 +13,8 @@ module layer2_8to6 (
 
     neuron_1 #(
         .NUM_INPUTS   (8),
-        .WEIGHTS      ({ 10, 31, -69, 68, 21, 83, -28, 118 }),
-        .BIAS         (-44),
+        .WEIGHTS      ({ 1, 79, 121, -22, -17, 115, 100, -181 }),
+        .BIAS         (19),
         .V_TH         (256)
     ) neuron_0 (
         .clk          (clk),
@@ -26,8 +26,8 @@ module layer2_8to6 (
 
     neuron_1 #(
         .NUM_INPUTS   (8),
-        .WEIGHTS      ({ 100, 103, 101, -50, 10, -111, -53, 19 }),
-        .BIAS         (-7),
+        .WEIGHTS      ({ -46, -48, 71, -51, -118, 43, 14, 2 }),
+        .BIAS         (97),
         .V_TH         (256)
     ) neuron_1 (
         .clk          (clk),
@@ -39,8 +39,8 @@ module layer2_8to6 (
 
     neuron_1 #(
         .NUM_INPUTS   (8),
-        .WEIGHTS      ({ -36, -98, -37, 4, -67, 77, -59, 42 }),
-        .BIAS         (34),
+        .WEIGHTS      ({ 5, 18, 113, -30, 13, 112, 127, -164 }),
+        .BIAS         (-1),
         .V_TH         (256)
     ) neuron_2 (
         .clk          (clk),
@@ -52,8 +52,8 @@ module layer2_8to6 (
 
     neuron_1 #(
         .NUM_INPUTS   (8),
-        .WEIGHTS      ({ -14, -100, 12, 145, 19, 63, -39, 95 }),
-        .BIAS         (60),
+        .WEIGHTS      ({ -78, 9, 89, -67, 53, 151, 109, -55 }),
+        .BIAS         (-15),
         .V_TH         (256)
     ) neuron_3 (
         .clk          (clk),
@@ -65,8 +65,8 @@ module layer2_8to6 (
 
     neuron_1 #(
         .NUM_INPUTS   (8),
-        .WEIGHTS      ({ -74, 0, -70, -7, -102, 65, 35, 116 }),
-        .BIAS         (92),
+        .WEIGHTS      ({ 28, 24, -98, -30, -87, 48, 92, -159 }),
+        .BIAS         (100),
         .V_TH         (256)
     ) neuron_4 (
         .clk          (clk),
@@ -78,8 +78,8 @@ module layer2_8to6 (
 
     neuron_1 #(
         .NUM_INPUTS   (8),
-        .WEIGHTS      ({ -18, 50, 7, 81, 78, 8, -51, -24 }),
-        .BIAS         (40),
+        .WEIGHTS      ({ -65, 85, -130, 112, 75, 23, 50, 95 }),
+        .BIAS         (68),
         .V_TH         (256)
     ) neuron_5 (
         .clk          (clk),

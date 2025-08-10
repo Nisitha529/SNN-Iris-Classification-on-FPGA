@@ -13,8 +13,8 @@ module layer3_6to4 (
 
     neuron_1 #(
         .NUM_INPUTS   (6),
-        .WEIGHTS      ({ 107, -82, -39, 121, 125, 117, 0, 0 }),
-        .BIAS         (20),
+        .WEIGHTS      ({ 230, 33, 34, 89, 46, -34, 0, 0 }),
+        .BIAS         (-30),
         .V_TH         (256)
     ) neuron_0 (
         .clk          (clk),
@@ -26,8 +26,8 @@ module layer3_6to4 (
 
     neuron_1 #(
         .NUM_INPUTS   (6),
-        .WEIGHTS      ({ -35, 82, -123, -68, -40, 130, 0, 0 }),
-        .BIAS         (121),
+        .WEIGHTS      ({ 54, -10, -16, -18, 73, -62, 0, 0 }),
+        .BIAS         (-122),
         .V_TH         (256)
     ) neuron_1 (
         .clk          (clk),
@@ -39,8 +39,8 @@ module layer3_6to4 (
 
     neuron_1 #(
         .NUM_INPUTS   (6),
-        .WEIGHTS      ({ -7, 21, -88, -62, -22, -147, 0, 0 }),
-        .BIAS         (-63),
+        .WEIGHTS      ({ 120, 79, 166, 149, 102, -51, 0, 0 }),
+        .BIAS         (57),
         .V_TH         (256)
     ) neuron_2 (
         .clk          (clk),
@@ -52,8 +52,8 @@ module layer3_6to4 (
 
     neuron_1 #(
         .NUM_INPUTS   (6),
-        .WEIGHTS      ({ 141, -117, 108, 24, 122, 119, 0, 0 }),
-        .BIAS         (42),
+        .WEIGHTS      ({ 62, 123, 75, 13, -10, -124, 0, 0 }),
+        .BIAS         (43),
         .V_TH         (256)
     ) neuron_3 (
         .clk          (clk),

@@ -13,8 +13,8 @@ module layer1_4to8 (
 
     neuron_1 #(
         .NUM_INPUTS   (4),
-        .WEIGHTS      ({ -46, 58, 82, -126, 0, 0, 0, 0 }),
-        .BIAS         (134),
+        .WEIGHTS      ({103, -4, -44, -63, 0, 0, 0, 0}),
+        .BIAS         (-191),
         .V_TH         (256)
     ) neuron_0 (
         .clk          (clk),
@@ -26,8 +26,8 @@ module layer1_4to8 (
 
     neuron_1 #(
         .NUM_INPUTS   (4),
-        .WEIGHTS      ({ -63, 58, -67, -145, 0, 0, 0, 0 }),
-        .BIAS         (-26),
+        .WEIGHTS      ({ 126, 75, 117, -8, 0, 0, 0, 0 }),
+        .BIAS         (78),
         .V_TH         (256)
     ) neuron_1 (
         .clk          (clk),
@@ -39,8 +39,8 @@ module layer1_4to8 (
 
     neuron_1 #(
         .NUM_INPUTS   (4),
-        .WEIGHTS      ({ -90, -26, -115, -55, 0, 0, 0, 0 }),
-        .BIAS         (-4),
+        .WEIGHTS      ({ -88, 21, -47, -155, 0, 0, 0, 0 }),
+        .BIAS         (-37),
         .V_TH         (256)
     ) neuron_2 (
         .clk          (clk),
@@ -52,8 +52,8 @@ module layer1_4to8 (
 
     neuron_1 #(
         .NUM_INPUTS   (4),
-        .WEIGHTS      ({ -34, -90, 108, 59, 0, 0, 0, 0 }),
-        .BIAS         (62),
+        .WEIGHTS      ({ 97, -43, 31, 61, 0, 0, 0, 0 }),
+        .BIAS         (58),
         .V_TH         (256)
     ) neuron_3 (
         .clk          (clk),
@@ -65,8 +65,8 @@ module layer1_4to8 (
 
     neuron_1 #(
         .NUM_INPUTS   (4),
-        .WEIGHTS      ({ 57, 72, -147, -97, 0, 0, 0, 0 }),
-        .BIAS         (-40),
+        .WEIGHTS      ({ -57, -159, 155, 27, 0, 0, 0, 0 }),
+        .BIAS         (11),
         .V_TH         (256)
     ) neuron_4 (
         .clk          (clk),
@@ -78,8 +78,8 @@ module layer1_4to8 (
 
     neuron_1 #(
         .NUM_INPUTS   (4),
-        .WEIGHTS      ({ -60, -50, 101, 133, 0, 0, 0, 0 }),
-        .BIAS         (-40),
+        .WEIGHTS      ({ 38, -53, -56, -138, 0, 0, 0, 0 }),
+        .BIAS         (146),
         .V_TH         (256)
     ) neuron_5 (
         .clk          (clk),
@@ -91,8 +91,8 @@ module layer1_4to8 (
 
     neuron_1 #(
         .NUM_INPUTS   (4),
-        .WEIGHTS      ({ -29, -71, -71, 51, 0, 0, 0, 0 }),
-        .BIAS         (-157),
+        .WEIGHTS      ({ 27, 57, -138, 92, 0, 0, 0, 0 }),
+        .BIAS         (166),
         .V_TH         (256)
     ) neuron_6 (
         .clk          (clk),
@@ -104,8 +104,8 @@ module layer1_4to8 (
 
     neuron_1 #(
         .NUM_INPUTS   (4),
-        .WEIGHTS      ({ 19, 53, 125, 102, 0, 0, 0, 0 }),
-        .BIAS         (-43),
+        .WEIGHTS      ({ 39, -1, 22, 148, 0, 0, 0, 0 }),
+        .BIAS         (-96),
         .V_TH         (256)
     ) neuron_7 (
         .clk          (clk),

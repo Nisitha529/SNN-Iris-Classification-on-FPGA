@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_snn_iris_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_snn_iris_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="44.094 ns"></ZoomStartTime>
+      <ZoomEndTime time="421.432 ns"></ZoomEndTime>
+      <Cursor1Time time="105.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="190"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject type="logic" fp_name="/tb_snn_iris_top/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_snn_iris_top/reset_n">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/f0">
+      <obj_property name="ElementShortName">f0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">f0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/f1">
+      <obj_property name="ElementShortName">f1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">f1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/f2">
+      <obj_property name="ElementShortName">f2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">f2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/f3">
+      <obj_property name="ElementShortName">f3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">f3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/class_out">
+      <obj_property name="ElementShortName">class_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">class_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_snn_iris_top/result_valid">
+      <obj_property name="ElementShortName">result_valid</obj_property>
+      <obj_property name="ObjectShortName">result_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/test_data">
+      <obj_property name="ElementShortName">test_data[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">test_data[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/expected_class">
+      <obj_property name="ElementShortName">expected_class[1:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_class[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/file_handle">
+      <obj_property name="ElementShortName">file_handle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file_handle[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/sample_count">
+      <obj_property name="ElementShortName">sample_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/correct">
+      <obj_property name="ElementShortName">correct[31:0]</obj_property>
+      <obj_property name="ObjectShortName">correct[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/total">
+      <obj_property name="ElementShortName">total[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/scan_result">
+      <obj_property name="ElementShortName">scan_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">scan_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/CLK_PERIOD">
+      <obj_property name="ElementShortName">CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/NUM_TEST_SAMPLES">
+      <obj_property name="ElementShortName">NUM_TEST_SAMPLES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_TEST_SAMPLES[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_snn_iris_top/SAMPLE_FILE">
+      <obj_property name="ElementShortName">SAMPLE_FILE[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">SAMPLE_FILE[1023:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group135">
+      <obj_property name="label">control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_snn_iris_top/dut/ctrl/sample_reset">
+         <obj_property name="ElementShortName">sample_reset</obj_property>
+         <obj_property name="ObjectShortName">sample_reset</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_snn_iris_top/dut/ctrl/reset_ly1">
+         <obj_property name="ElementShortName">reset_ly1</obj_property>
+         <obj_property name="ObjectShortName">reset_ly1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_snn_iris_top/dut/ctrl/reset_ly2">
+         <obj_property name="ElementShortName">reset_ly2</obj_property>
+         <obj_property name="ObjectShortName">reset_ly2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_snn_iris_top/dut/ctrl/reset_ly3">
+         <obj_property name="ElementShortName">reset_ly3</obj_property>
+         <obj_property name="ObjectShortName">reset_ly3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_snn_iris_top/dut/ctrl/reset_ly4">
+         <obj_property name="ElementShortName">reset_ly4</obj_property>
+         <obj_property name="ObjectShortName">reset_ly4</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_snn_iris_top/dut/ctrl/count_enable">
+         <obj_property name="ElementShortName">count_enable</obj_property>
+         <obj_property name="ObjectShortName">count_enable</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_snn_iris_top/dut/ctrl/result_valid">
+         <obj_property name="ElementShortName">result_valid</obj_property>
+         <obj_property name="ObjectShortName">result_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_snn_iris_top/dut/ctrl/cycle_count">
+         <obj_property name="ElementShortName">cycle_count[6:0]</obj_property>
+         <obj_property name="ObjectShortName">cycle_count[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group144">
+      <obj_property name="label">gen1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_snn_iris_top/dut/gen_f0/feature">
+         <obj_property name="ElementShortName">feature[7:0]</obj_property>
+         <obj_property name="ObjectShortName">feature[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_snn_iris_top/dut/gen_f0/spike_out">
+         <obj_property name="ElementShortName">spike_out</obj_property>
+         <obj_property name="ObjectShortName">spike_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group145">
+      <obj_property name="label">gen2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_snn_iris_top/dut/gen_f1/feature">
+         <obj_property name="ElementShortName">feature[7:0]</obj_property>
+         <obj_property name="ObjectShortName">feature[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_snn_iris_top/dut/gen_f1/spike_out">
+         <obj_property name="ElementShortName">spike_out</obj_property>
+         <obj_property name="ObjectShortName">spike_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group146">
+      <obj_property name="label">gen3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_snn_iris_top/dut/gen_f2/feature">
+         <obj_property name="ElementShortName">feature[7:0]</obj_property>
+         <obj_property name="ObjectShortName">feature[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_snn_iris_top/dut/gen_f2/spike_out">
+         <obj_property name="ElementShortName">spike_out</obj_property>
+         <obj_property name="ObjectShortName">spike_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group147">
+      <obj_property name="label">gen4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_snn_iris_top/dut/gen_f3/feature">
+         <obj_property name="ElementShortName">feature[7:0]</obj_property>
+         <obj_property name="ObjectShortName">feature[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_snn_iris_top/dut/gen_f3/spike_out">
+         <obj_property name="ElementShortName">spike_out</obj_property>
+         <obj_property name="ObjectShortName">spike_out</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

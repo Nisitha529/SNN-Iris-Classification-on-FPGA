@@ -98,12 +98,7 @@ module tb_snn_iris_top;
                 if (class_out == (1 << expected_class)) 
                     correct++;
                 
-                $display("Sample %0d: Output %b | Expected %b | %s",
-                         sample_count,
-                         class_out,
-                         (1 << expected_class),
-                         (class_out == (3'b1 << expected_class)) ? "PASS" : "FAIL");
-
+                $display("Sample %0d: Output %d | Expected %d | %s", sample_count, class_out, (1 << expected_class), (class_out == (3'b1 << expected_class)) ? "PASS" : "FAIL");
                 
                 sample_count++;
                 #100;  

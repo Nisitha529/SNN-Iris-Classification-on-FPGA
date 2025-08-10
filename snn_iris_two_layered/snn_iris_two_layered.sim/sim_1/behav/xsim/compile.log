@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/nisitha/My_Passport/MOODLE/Vivado_projects/SNN_project/snn_iris_project/snn_iris_two_layered/snn_iris_two_layered.srcs/sources_1/new/control_iris.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_iris
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/nisitha/My_Passport/MOODLE/Vivado_projects/SNN_project/snn_iris_project/snn_iris_two_layered/snn_iris_two_layered.srcs/sources_1/new/layer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module layer1_4to8
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/nisitha/My_Passport/MOODLE/Vivado_projects/SNN_project/snn_iris_project/snn_iris_two_layered/snn_iris_two_layered.srcs/sources_1/new/layer2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module layer2_8to3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/nisitha/My_Passport/MOODLE/Vivado_projects/SNN_project/snn_iris_project/snn_iris_two_layered/snn_iris_two_layered.srcs/sources_1/new/gen_input_single.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gen_input_single
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/nisitha/My_Passport/MOODLE/Vivado_projects/SNN_project/snn_iris_project/snn_iris_two_layered/snn_iris_two_layered.srcs/sources_1/new/neuron.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/nisitha/My_Passport/MOODLE/Vivado_projects/SNN_project/snn_iris_project/snn_iris_two_layered/snn_iris_two_layered.srcs/sources_1/new/snn_iris_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module snn_iris_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/media/nisitha/My_Passport/MOODLE/Vivado_projects/SNN_project/snn_iris_project/snn_iris_two_layered/snn_iris_two_layered.srcs/sim_1/new/tb_snn_iris_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_snn_iris_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/nisitha/My_Passport/MOODLE/Vivado_projects/SNN_project/snn_iris_project/snn_iris_two_layered/snn_iris_two_layered.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
